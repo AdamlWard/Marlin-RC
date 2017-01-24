@@ -37,8 +37,8 @@
  * 
  * Initial version by Roxy-3DPrintBoard
  */
-#define M100_FREE_MEMORY_DUMPER     // Comment out to remove Dump sub-command
-#define M100_FREE_MEMORY_CORRUPTOR    // Comment out to remove Corrupt sub-command
+//#define M100_FREE_MEMORY_DUMPER     // Comment out to remove Dump sub-command
+//#define M100_FREE_MEMORY_CORRUPTOR    // Comment out to remove Corrupt sub-command
 
 #include "Marlin.h"
 

@@ -520,10 +520,17 @@
 #elif defined(__AVR_AT90USB1287__) || defined(__AVR_AT90USB1286__) || defined(__AVR_AT90USB646__) || defined(__AVR_AT90USB647__)
   #if ENABLED(AT90USBxx_TEENSYPP_ASSIGNMENTS)
     // Teensy pin assignments
-    #define AVR_SCK_PIN  21
-    #define AVR_MISO_PIN 23
-    #define AVR_MOSI_PIN 22
-    #define AVR_SS_PIN   40
+	//#define SCK_PIN 21
+    //#define MISO_PIN 23
+    //#define MOSI_PIN 22
+    //#define SS_PIN 40
+	
+    //#define AVR_SCK_PIN 21
+    //#define AVR_MISO_PIN 23
+    //#define AVR_MOSI_PIN 22
+    //#define AVR_SS_PIN 40
+	
+
   #else
     // Traditional pin assignments
     #define AVR_SCK_PIN  9
